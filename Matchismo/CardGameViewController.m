@@ -33,7 +33,7 @@
 
 -(Deck *)createDeck
 {
-	return [[PlayingCardDeck alloc]init];
+	return nil;
 }
 
 - (IBAction)matchMode:(id)sender {
