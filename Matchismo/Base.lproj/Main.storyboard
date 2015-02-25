@@ -8,7 +8,7 @@
         <scene sceneID="nHD-Hp-TfL">
             <objects>
                 <tabBarController definesPresentationContext="YES" id="J7j-5b-EV8" sceneMemberID="viewController">
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="aAf-HX-6ze">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -23,10 +23,10 @@
             </objects>
             <point key="canvasLocation" x="-261" y="123"/>
         </scene>
-        <!--Card Game View Controller - Match-->
+        <!--Playing Card Game View Controller - Match-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="CardGameViewController" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="PlayingCardGameViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>

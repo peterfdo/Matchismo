@@ -7,8 +7,6 @@
 //
 
 #import "CardGameViewController.h"
-#import "PlayingCard.h"
-#import "PlayingCardDeck.h"
 #import "Deck.h"
 #import "card.h"
 #import "CardMatchGame.h"
@@ -31,7 +29,7 @@
 	return _game;
 }
 
--(Deck *)createDeck
+-(Deck *)createDeck //abstract
 {
 	return nil;
 }
